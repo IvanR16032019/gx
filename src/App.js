@@ -117,7 +117,7 @@ function App() {
         emissiveIntensity={0.5}  // Ajustar la intensidad para evitar la luz negra
       />
       <Moon earthRef={earthRef} /> {/* Aquí agregamos la luna */}
-      <OrbitControls enableZoom={false} />
+      <OrbitControls enableZoom={true} />
     </Canvas>
   );
 }
